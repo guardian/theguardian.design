@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "GT Guardian Titlepiece";
+  src: url("https://pasteup.guim.co.uk/webfonts/1.0.0/noalts-not-hinted/GTGuardianTitlepiece-Bold.woff2")
+      format("woff2"),
+    url("https://pasteup.guim.co.uk/webfonts/1.0.0/noalts-not-hinted/GTGuardianTitlepiece-Bold.woff")
+      format("woff"),
+    url("https://pasteup.guim.co.uk/webfonts/1.0.0/noalts-not-hinted/GTGuardianTitlepiece-Bold.ttf")
+      format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GuardianTextEgyptian";
+  src: url("https://interactive.guim.co.uk/fonts/sep2018/noalts_not_hinted_webmetrics/textegyptian/GuardianTextEgyptian-Regular.woff2")
+      format("woff2"),
+    url("https://interactive.guim.co.uk/fonts/sep2018/noalts_not_hinted_webmetrics/textegyptian/GuardianTextEgyptian-Regular.woff")
+      format("woff"),
+    url("https://interactive.guim.co.uk/fonts/sep2018/noalts_not_hinted_webmetrics/textegyptian/GuardianTextEgyptian-Regular.ttf")
+      format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}

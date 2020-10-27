@@ -4,4 +4,56 @@
 
 html {
   font-size: 16px;
+  background-color: #041f4a;
+  color: #ffffff;
+}
+
+section,
+header {
+  /* CONTAINER MARGINS */
+}
+
+h2 {
+  font-family: "GT Guardian Titlepiece", Georgia, serif;
+  font-size: 50px;
+  color: #ffe500;
+}
+
+.guardian-logo {
+  text-align: right;
+}
+
+.guardian-logo img {
+  /* LOGO SIZE TWEAKS */
+}
+
+.anchor-link {
+  font-family: "GT Guardian Titlepiece", Georgia, serif;
+  font-size: 42px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.foundations > p {
+  font-family: "GT Guardian Titlepiece", Georgia, serif;
+  font-size: 50px;
+  color: #ffffff;
+}
+
+.design-principles__list {
+  font-family: "GT Guardian Titlepiece", Georgia, serif;
+  font-size: 70px;
+}
+
+.design-principles__list > li {
+  color: #ffffff;
+}
+
+.design-principles__list > li:nth-child(2n) {
+  color: #a9a9a9;
+}
+
+.brand__description > p {
+  font-family: GuardianTextEgyptian, Georgia, serif;
+  font-size: 17px;
 }
