@@ -27,6 +27,10 @@ h2 {
   /* LOGO SIZE TWEAKS */
 }
 
+.source-logo {
+  width: 800px;
+}
+
 .anchor-link {
   font-family: "GT Guardian Titlepiece", Georgia, serif;
   font-size: 42px;
