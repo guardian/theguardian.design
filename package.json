@@ -1,0 +1,24 @@
+{
+  "name": "theguardian.design",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guardian/theguardian.design.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guardian/theguardian.design/issues"
+  },
+  "homepage": "https://github.com/guardian/theguardian.design#readme",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
