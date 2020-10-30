@@ -18,6 +18,7 @@ header {
 }
 
 section {
+  position: relative;
   height: 100vh;
   padding-top: 125px;
 }
@@ -30,6 +31,7 @@ header {
 h2 {
   font-family: "GT Guardian Titlepiece", Georgia, serif;
   font-size: 50px;
+  line-height: 58px;
   color: #ffe500;
 }
 
@@ -40,6 +42,11 @@ h2 {
 
 .guardian-logo > img {
   height: 100%;
+}
+
+.section-footer {
+  position: absolute;
+  bottom: 25px;
 }
 
 .anchor-link {

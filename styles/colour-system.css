@@ -7,3 +7,28 @@
   font-size: 17px;
   width: 350px;
 }
+
+.pillar-colour {
+  height: 140px;
+  width: 100%;
+}
+
+.pillar-colour--news {
+  background-color: #ab0613;
+}
+
+.pillar-colour--opinion {
+  background-color: #e05e00;
+}
+
+.pillar-colour--sport {
+  background-color: #0084c6;
+}
+
+.pillar-colour--culture {
+  background-color: #a1845c;
+}
+
+.pillar-colour--liefstyle {
+  background-color: #bb3b80;
+}

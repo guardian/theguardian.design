@@ -15,7 +15,7 @@
   font-size: 31px;
 }
 
-.typography__footer {
+.section-footer--typography {
   width: 1100px;
   display: flex;
   flex-direction: row-reverse;
