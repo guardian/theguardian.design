@@ -1,6 +1,5 @@
 .brand {
   width: var(--constrained-container-width);
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
