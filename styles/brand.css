@@ -8,16 +8,14 @@
 }
 
 .brand__images__image {
-  border-width: 1px 1px 0 0;
-  border-style: solid;
-  border-color: #ffffff;
+  border-top: var(--border-primary);
+  border-right: var(--border-primary);
   height: 230px;
   padding: 16px;
 }
 
-/* negate section left padding */
 .brand__images__image:first-of-type {
-  margin-left: -20px;
+  margin-left: calc(var(--section-padding-left) * -1);
 }
 
 .section-footer--brand {

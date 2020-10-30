@@ -1,6 +1,16 @@
 .typography__example {
   padding: 5px 20px;
-  border-top: 1px solid #ffffff;
+  border-top: var(--border-primary);
+  margin-bottom: 50px;
+}
+
+.typography__example:nth-child(odd) {
+  float: left;
+  margin-left: calc(var(--section-padding-left) * -1);
+}
+
+.typography__example:nth-child(even) {
+  float: right;
 }
 
 .typography__example::before {
@@ -13,27 +23,18 @@
   font-family: "GT Guardian Titlepiece", Georgia, serif;
   font-weight: 700;
   font-size: 178px;
-  float: left;
-  margin-bottom: 50px;
-  /* override section left-padding */
-  margin-left: -20px;
 }
 
 .typography__example--headline {
   font-family: "GH Guardian Headline", Georgia, serif;
   font-weight: 700;
   font-size: 54px;
-  float: right;
-  margin-bottom: 50px;
 }
 
 .typography__example--egyptian {
   font-family: "GuardianTextEgyptian", Georgia, serif;
   font-weight: 400;
   font-size: 31px;
-  float: left;
-  /* override section left-padding */
-  margin-left: -20px;
 }
 
 .section-footer--typography {

@@ -12,9 +12,8 @@
   margin-right: 20px;
 }
 
-/* override section left padding */
 .colour-system__pillar-colours {
-  margin-left: -20px;
+  margin-left: calc(var(--section-padding-left) * -1);
 }
 
 .pillar-colour {
