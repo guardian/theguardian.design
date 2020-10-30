@@ -54,16 +54,16 @@
 }
 
 .f1 {
-  flex: 1 0 auto;
+  flex: 1;
 }
 .f15 {
-  flex: 1.5 0 auto;
+  flex: 1.5;
 }
 .f2 {
-  flex: 2 0 auto;
+  flex: 2;
 }
 .f3 {
-  flex: 3 0 auto;
+  flex: 3;
 }
 
 .pillar-colour--dark {
