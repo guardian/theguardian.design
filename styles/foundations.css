@@ -1,0 +1,13 @@
+.foundations {
+  width: 1100px;
+}
+
+.foundations__description {
+  font-family: "GT Guardian Titlepiece", Georgia, serif;
+  font-size: 50px;
+  color: #ffffff;
+}
+
+.foundations__description__faded {
+  color: #a9a9a9;
+}

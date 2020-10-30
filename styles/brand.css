@@ -1,0 +1,28 @@
+.brand {
+  width: 1100px;
+}
+
+.brand__images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand__images__image {
+  height: 230px;
+}
+
+.brand__footer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.brand__description {
+  display: flex;
+}
+
+.brand__description > p {
+  font-family: GuardianTextEgyptian, Georgia, serif;
+  font-size: 17px;
+  width: 350px;
+}

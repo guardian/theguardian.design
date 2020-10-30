@@ -1,0 +1,33 @@
+.typography__examples__titlepiece {
+  font-family: "GT Guardian Titlepiece", Georgia, serif;
+  font-weight: 700;
+  font-size: 178px;
+}
+.typography__examples__headline {
+  font-family: "GH Guardian Headline", Georgia, serif;
+  font-weight: 700;
+  font-size: 54px;
+  text-align: right;
+}
+.typography__examples__egyptian {
+  font-family: "GuardianTextEgyptian", Georgia, serif;
+  font-weight: 400;
+  font-size: 31px;
+}
+
+.typography__footer {
+  width: 1100px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.typography__description {
+  display: flex;
+}
+
+.typography__description > p {
+  font-family: GuardianTextEgyptian, Georgia, serif;
+  font-size: 17px;
+  width: 350px;
+}

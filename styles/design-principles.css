@@ -1,0 +1,12 @@
+.design-principles__list {
+  font-family: "GT Guardian Titlepiece", Georgia, serif;
+  font-size: 89px;
+}
+
+.design-principles__list > li {
+  color: #ffffff;
+}
+
+.design-principles__list > li:nth-child(2n) {
+  color: #a9a9a9;
+}

@@ -2,35 +2,55 @@
 <html>
   <head>
     <title>Source</title>
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="fonts.css" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/fonts.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/hero.css" />
+    <link rel="stylesheet" href="styles/foundations.css" />
+    <link rel="stylesheet" href="styles/design-principles.css" />
+    <link rel="stylesheet" href="styles/brand.css" />
+    <link rel="stylesheet" href="styles/typography.css" />
+    <link rel="stylesheet" href="styles/colour-system.css" />
   </head>
   <body>
     <header>
       <div class="guardian-logo">
-        <img src="guardian-logo.svg" />
+        <img src="images/guardian-logo.svg" />
       </div>
     </header>
     <section>
-      <div class="source-logo">
-        <img src="source-logo.svg" />
+      <div class="hero">
+        <img src="images/source-logo.svg" />
+        <a href="#foundations" class="anchor-link">
+          <div class="anchor-link__icon">
+            <img src="images/arrow-down.svg" />
+          </div>
+          Foundations
+        </a>
       </div>
-      <a href="/" class="anchor-link">Foundations</a>
     </section>
+    <a name="foundations"></a>
     <section>
       <div class="foundations">
         <h2>Foundations</h2>
-        <p>
+        <p class="foundations__description">
           The Guardian design system blends our brand, editorial and user
           experience design to help build a wholistic picture of our design
-          thinking, principles and system. The aim of this work is to enable
-          reference of the system, and usage by design and development to be
-          easy and accessible.
+          thinking, principles and system.
+          <span class="foundations__description__faded"
+            >The aim of this work is to enable reference of the system, and
+            usage by design and development to be easy and accessible.</span
+          >
         </p>
+        <a href="#design-principles" class="anchor-link">
+          <div class="anchor-link__icon">
+            <img src="images/arrow-down.svg" />
+          </div>
+          Design principles
+        </a>
       </div>
-      <a href="/" class="anchor-link">Design principles</a>
     </section>
+    <a name="design-principles"></a>
     <section>
       <div class="design-principles">
         <h2>Design principles</h2>
@@ -41,55 +61,76 @@
           <li>Generate real hope</li>
           <li>Play with expectations</li>
         </ul>
+        <a href="#brand" class="anchor-link">
+          <div class="anchor-link__icon">
+            <img src="images/arrow-down.svg" />
+          </div>
+          Brand
+        </a>
       </div>
-      <a href="/" class="anchor-link">Brand</a>
     </section>
+    <a name="brand"></a>
     <section>
       <div class="brand">
         <h2>Brand</h2>
         <div class="brand__images">
-          <img src="guardian-logo.svg" />
-          <img src="roundel.svg" />
+          <img class="brand__images__image" src="images/guardian-logo.svg" />
+          <img class="brand__images__image" src="images/roundel.svg" />
         </div>
-        <div class="brand__description">
-          <p>
-            The Guardian has two expressions of its brand. The main titlepeice,
-            and the Guardian roundel
-          </p>
-          <p>
-            The logo and the roundel are always aligned to top right or bottom
-            right.
-          </p>
+        <div class="brand__footer">
+          <div class="brand__description">
+            <p>
+              The Guardian has two expressions of its brand. The main
+              titlepeice, and the Guardian roundel
+            </p>
+            <p>
+              The logo and the roundel are always aligned to top right or bottom
+              right.
+            </p>
+          </div>
+          <a href="#typography" class="anchor-link">
+            <div class="anchor-link__icon">
+              <img src="images/arrow-down.svg" />
+            </div>
+            Typography
+          </a>
         </div>
       </div>
-      <a href="/" class="anchor-link">Typography</a>
     </section>
+    <a name="typography"></a>
     <section>
       <div class="typography">
         <h2>Typography</h2>
         <div class="typography__examples">
-          <span class="typography__examples__titlepiece">Hope is power</span>
-          <span class="typography__examples__headline"
-            >Change is possible. Hope is power</span
-          >
-          <span class="typography__examples__egyptian"
-            >The way things are, is not the way things have to be. Hope is
-            power.</span
-          >
+          <p class="typography__examples__titlepiece">Hope is power</p>
+          <p class="typography__examples__headline">
+            Change is possible. Hope is power
+          </p>
+          <p class="typography__examples__egyptian">
+            The way things are, is not the way things have to be. Hope is power.
+          </p>
         </div>
-        <div class="typography__description">
-          <p>
-            The Guardian has 3 core typefaces. Guardian Titlepeice is the our
-            brand font.
-          </p>
-          <p>
-            Guardian headline for headlines and Text Egyptian for hardworking
-            body copy.
-          </p>
+        <div class="typography__footer">
+          <div class="typography__description">
+            <p>
+              The Guardian has 3 core typefaces. Guardian Titlepeice is the our
+              brand font.
+            </p>
+            <p>
+              Guardian headline for headlines and Text Egyptian for hardworking
+              body copy.
+            </p>
+          </div>
+          <a href="#colour-system" class="anchor-link">
+            <div class="anchor-link__icon">
+              <img src="images/arrow-down.svg" />
+            </div>
+            Colour system
+          </a>
         </div>
       </div>
-      <a href="/" class="anchor-link">Colour system</a>
     </section>
+    <a name="colour-system"></a>
     <section>
       <div class="colour-system">
         <h2>Colour system</h2>
@@ -111,7 +152,6 @@
           </p>
         </div>
       </div>
-      <a href="/" class="anchor-link">Colour system</a>
     </section>
   </body>
 </html>

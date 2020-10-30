@@ -11,6 +11,18 @@
 }
 
 @font-face {
+  font-family: "GH Guardian Headline";
+  src: url("https://pasteup.guim.co.uk/webfonts/1.0.0/noalts-not-hinted/GHGuardianHeadline-Bold.woff2")
+      format("woff2"),
+    url("https://pasteup.guim.co.uk/webfonts/1.0.0/noalts-not-hinted/GHGuardianHeadline-Bold.woff")
+      format("woff"),
+    url("https://pasteup.guim.co.uk/webfonts/1.0.0/noalts-not-hinted/GHGuardianHeadline-Bold.ttf")
+      format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "GuardianTextEgyptian";
   src: url("https://interactive.guim.co.uk/fonts/sep2018/noalts_not_hinted_webmetrics/textegyptian/GuardianTextEgyptian-Regular.woff2")
       format("woff2"),

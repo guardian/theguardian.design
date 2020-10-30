@@ -1,0 +1,9 @@
+.colour-system__description {
+  display: flex;
+}
+
+.colour-system__description > p {
+  font-family: GuardianTextEgyptian, Georgia, serif;
+  font-size: 17px;
+  width: 350px;
+}

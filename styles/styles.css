@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  background-color: #041f4a;
+  color: #ffffff;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 1200px;
+  max-width: 100%;
+  height: 125px;
+  background-color: #041f4a;
+}
+
+section {
+  height: 100vh;
+  padding-top: 125px;
+}
+
+section,
+header {
+  padding-left: 100px;
+}
+
+h2 {
+  font-family: "GT Guardian Titlepiece", Georgia, serif;
+  font-size: 50px;
+  color: #ffe500;
+}
+
+.guardian-logo {
+  text-align: right;
+  height: 92px;
+}
+
+.guardian-logo > img {
+  height: 100%;
+}
+
+.anchor-link {
+  font-family: "GT Guardian Titlepiece", Georgia, serif;
+  font-size: 42px;
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.anchor-link__icon {
+  width: 68px;
+  height: 68px;
+  border-radius: 68px;
+  background-color: #ffe500;
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+}
+
+.anchor-link__icon > img {
+  flex: 1;
+  width: 50px;
+  height: 50px;
+}
