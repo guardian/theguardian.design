@@ -1,5 +1,9 @@
 .brand {
   width: var(--constrained-container-width);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .brand__images {
@@ -8,13 +12,27 @@
 }
 
 .brand__images__image {
+  border-width: 1px 1px 0 0;
+  border-style: solid;
+  border-color: #ffffff;
   height: 230px;
+  padding: 16px;
+}
+
+/* negate section left padding */
+.brand__images__image:first-of-type {
+  margin-left: -20px;
 }
 
 .section-footer--brand {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
+
+  /* Override absolute positioning. 
+  Instead positioned by flex on .brand */
+  position: static;
+  margin-bottom: 25px;
 }
 
 .brand__description {

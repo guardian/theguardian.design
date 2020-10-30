@@ -45,16 +45,13 @@ h2 {
   font-size: 50px;
   line-height: 58px;
   color: var(--brand-alt-400);
+  margin: 16px 0;
 }
 
 .guardian-logo {
   text-align: right;
   width: var(--constrained-container-width);
   max-width: 100%;
-}
-
-.guardian-logo__link {
-  display: block;
 }
 
 .guardian-logo img {
