@@ -5,8 +5,10 @@
   --constrained-section-width: 1100px;
   --brand-400: #041f4a;
   --brand-alt-400: #ffe500;
+  --neutral-100: #ffffff;
+  --neutral-66: #a9a9a9;
   --section-padding-left: 20px;
-  --border-primary: 1px solid #ffffff;
+  --border-primary: 1px solid var(--neutral-100);
 }
 
 * {
@@ -16,7 +18,7 @@
 html {
   font-size: 16px;
   background-color: var(--brand-400);
-  color: #ffffff;
+  color: var(--neutral-100);
 }
 
 header {
@@ -74,7 +76,7 @@ h2 {
 .anchor-link {
   font-family: "GT Guardian Titlepiece", Georgia, serif;
   font-size: 42px;
-  color: #ffffff;
+  color: var(--neutral-100);
   text-decoration: none;
   display: flex;
   align-items: center;

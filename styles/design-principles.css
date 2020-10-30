@@ -5,9 +5,9 @@
 }
 
 .design-principles__list > li {
-  color: #ffffff;
+  color: var(--neutral-100);
 }
 
 .design-principles__list > li:nth-child(2n) {
-  color: #a9a9a9;
+  color: var(--neutral-66);
 }

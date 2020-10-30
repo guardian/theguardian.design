@@ -6,9 +6,9 @@
   font-family: "GT Guardian Titlepiece", Georgia, serif;
   font-size: 55px;
   line-height: 66px;
-  color: #ffffff;
+  color: var(--neutral-100);
 }
 
 .foundations__description__faded {
-  color: #a9a9a9;
+  color: var(--neutral-66);
 }
