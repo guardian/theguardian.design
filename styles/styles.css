@@ -1,43 +1,56 @@
+:root {
+  --header-height: 80px;
+  --guardian-logo-height: 72px;
+  --space-left: 80px;
+  --constrained-container-width: 1100px;
+  --brand-400: #041f4a;
+  --brand-alt-400: #ffe500;
+}
+
 * {
   box-sizing: border-box;
 }
 
 html {
   font-size: 16px;
-  background-color: #041f4a;
+  background-color: var(--brand-400);
   color: #ffffff;
 }
 
 header {
   position: fixed;
   top: 0;
-  width: 1200px;
-  max-width: 100%;
-  height: 125px;
-  background-color: #041f4a;
+  width: 100%;
+  height: var(--header-height);
+  padding-left: var(--space-left);
+  background-color: var(--brand-400);
+  border-bottom: 1px solid #ffffff;
 }
 
 section {
   position: relative;
   height: 100vh;
+  margin-left: var(--space-left);
   padding-top: 125px;
+  border-left: 1px solid #ffffff;
 }
 
-section,
-header {
-  padding-left: 100px;
+section:first-of-type {
+  border-left: 0;
 }
 
 h2 {
   font-family: "GT Guardian Titlepiece", Georgia, serif;
   font-size: 50px;
   line-height: 58px;
-  color: #ffe500;
+  color: var(--brand-alt-400);
 }
 
 .guardian-logo {
   text-align: right;
-  height: 92px;
+  width: var(--constrained-container-width);
+  max-width: 100%;
+  height: var(--guardian-logo-height);
 }
 
 .guardian-logo > img {
@@ -62,7 +75,7 @@ h2 {
   width: 68px;
   height: 68px;
   border-radius: 68px;
-  background-color: #ffe500;
+  background-color: var(--brand-alt-400);
   display: flex;
   align-items: center;
   margin-right: 12px;

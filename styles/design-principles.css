@@ -1,6 +1,7 @@
 .design-principles__list {
   font-family: "GT Guardian Titlepiece", Georgia, serif;
   font-size: 89px;
+  line-height: 99px;
 }
 
 .design-principles__list > li {
