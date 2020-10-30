@@ -1,5 +1,5 @@
 .foundations {
-  width: var(--constrained-container-width);
+  width: var(--constrained-section-width);
 }
 
 .foundations__description {

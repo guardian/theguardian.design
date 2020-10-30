@@ -2,7 +2,7 @@
   --header-height: 80px;
   --guardian-logo-height: 72px;
   --space-left: 80px;
-  --constrained-container-width: 1100px;
+  --constrained-section-width: 1100px;
   --brand-400: #041f4a;
   --brand-alt-400: #ffe500;
 }
@@ -34,6 +34,9 @@ section {
   padding-top: var(--header-height);
   padding-left: 20px;
   border-left: 1px solid #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 section:first-of-type {
@@ -54,7 +57,7 @@ h2 {
 
 .guardian-logo {
   text-align: right;
-  width: var(--constrained-container-width);
+  width: var(--constrained-section-width);
   max-width: 100%;
 }
 
@@ -63,8 +66,7 @@ h2 {
 }
 
 .section-footer {
-  position: absolute;
-  bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .anchor-link {

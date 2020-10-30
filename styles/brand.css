@@ -1,8 +1,5 @@
 .brand {
-  width: var(--constrained-container-width);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  width: var(--constrained-section-width);
 }
 
 .brand__images {
@@ -27,11 +24,6 @@
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
-
-  /* Override absolute positioning. 
-  Instead positioned by flex on .brand */
-  position: static;
-  margin-bottom: 25px;
 }
 
 .brand__description {

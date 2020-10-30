@@ -1,3 +1,3 @@
 .hero {
-  width: 1100px;
+  width: var(--constrained-section-width);
 }
