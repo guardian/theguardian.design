@@ -1,18 +1,46 @@
-.typography__examples__titlepiece {
+.typography {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.typography__example {
+  padding: 5px 20px;
+  border-top: 1px solid #ffffff;
+}
+
+.typography__example::before {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.typography__example--titlepiece {
   font-family: "GT Guardian Titlepiece", Georgia, serif;
   font-weight: 700;
   font-size: 178px;
+  float: left;
+  margin-bottom: 50px;
+  /* override section left-padding */
+  margin-left: -20px;
 }
-.typography__examples__headline {
+
+.typography__example--headline {
   font-family: "GH Guardian Headline", Georgia, serif;
   font-weight: 700;
   font-size: 54px;
-  text-align: right;
+  float: right;
+  margin-bottom: 50px;
 }
-.typography__examples__egyptian {
+
+.typography__example--egyptian {
   font-family: "GuardianTextEgyptian", Georgia, serif;
   font-weight: 400;
   font-size: 31px;
+  float: left;
+  /* override section left-padding */
+  margin-left: -20px;
 }
 
 .section-footer--typography {
@@ -22,12 +50,23 @@
   justify-content: space-between;
 }
 
+/* Override absolute positioning. 
+  Instead positioned by flex on .typography */
+.section-footer--typography {
+  position: static;
+  margin-bottom: 25px;
+}
+
 .typography__description {
   display: flex;
 }
 
 .typography__description > p {
   font-family: GuardianTextEgyptian, Georgia, serif;
-  font-size: 17px;
+  font-size: 20px;
   width: 350px;
+}
+
+.typography__description > p:first-child {
+  margin-right: 20px;
 }

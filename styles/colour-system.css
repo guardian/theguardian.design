@@ -4,8 +4,12 @@
 
 .colour-system__description > p {
   font-family: GuardianTextEgyptian, Georgia, serif;
-  font-size: 17px;
+  font-size: 20px;
   width: 350px;
+}
+
+.colour-system__description > p:first-child {
+  margin-right: 20px;
 }
 
 .pillar-colour {
