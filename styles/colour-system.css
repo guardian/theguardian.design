@@ -12,27 +12,68 @@
   margin-right: 20px;
 }
 
+/* override section left padding */
+.colour-system__pillar-colours {
+  margin-left: -20px;
+}
+
 .pillar-colour {
-  height: 140px;
+  height: 120px;
   width: 100%;
+  display: flex;
 }
 
 .pillar-colour--news {
-  background-color: #ab0613;
+  --dark: #ab0613;
+  --main: #c70000;
+  --bright: #ff4e36;
 }
 
 .pillar-colour--opinion {
-  background-color: #e05e00;
+  --dark: #bd5318;
+  --main: #e05e00;
+  --bright: #ff7f0f;
 }
 
 .pillar-colour--sport {
-  background-color: #0084c6;
+  --dark: #005689;
+  --main: #0084c6;
+  --bright: #00b2ff;
 }
 
 .pillar-colour--culture {
-  background-color: #a1845c;
+  --dark: #6b5840;
+  --main: #a1845c;
+  --bright: #eacca0;
 }
 
-.pillar-colour--liefstyle {
-  background-color: #bb3b80;
+.pillar-colour--lifestyle {
+  --dark: #7d0068;
+  --main: #bb3b80;
+  --bright: #ffabdb;
+}
+
+.f1 {
+  flex: 1 0 auto;
+}
+.f15 {
+  flex: 1.5 0 auto;
+}
+.f2 {
+  flex: 2 0 auto;
+}
+.f3 {
+  flex: 3 0 auto;
+}
+
+.pillar-colour--dark {
+  background-color: var(--dark);
+}
+
+.pillar-colour--main {
+  background-color: var(--main);
+}
+
+.pillar-colour--bright {
+  background-color: var(--bright);
 }
