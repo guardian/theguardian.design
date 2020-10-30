@@ -18,12 +18,12 @@ html {
 }
 
 header {
+  z-index: 1;
   position: fixed;
   top: 0;
   width: 100%;
   height: var(--header-height);
   padding-left: var(--space-left);
-  background-color: var(--brand-400);
   border-bottom: 1px solid #ffffff;
 }
 
@@ -31,7 +31,8 @@ section {
   position: relative;
   height: 100vh;
   margin-left: var(--space-left);
-  padding-top: 125px;
+  padding-top: var(--header-height);
+  padding-left: 20px;
   border-left: 1px solid #ffffff;
 }
 
@@ -50,11 +51,14 @@ h2 {
   text-align: right;
   width: var(--constrained-container-width);
   max-width: 100%;
-  height: var(--guardian-logo-height);
 }
 
-.guardian-logo > img {
-  height: 100%;
+.guardian-logo__link {
+  display: block;
+}
+
+.guardian-logo img {
+  height: var(--guardian-logo-height);
 }
 
 .section-footer {
