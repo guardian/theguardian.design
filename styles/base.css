@@ -28,7 +28,6 @@ header {
   top: 0;
   width: 100%;
   height: var(--header-height);
-  padding-left: var(--space-left);
   border-bottom: var(--border-primary);
 }
 
@@ -60,10 +59,25 @@ h2 {
   margin: 16px 0;
 }
 
-.guardian-logo {
-  text-align: right;
-  width: var(--constrained-section-width);
-  max-width: 100%;
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: calc(var(--constrained-section-width) + var(--space-left));
+}
+
+.menu {
+  background-color: var(--neutral-100);
+  width: var(--space-left);
+  height: var(--header-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu img {
+  width: 60px;
+  height: 60px;
+  transform: rotate(315deg);
 }
 
 .guardian-logo img {
