@@ -9,6 +9,7 @@
   --neutral-66: #a9a9a9;
   --section-padding-left: 20px;
   --border-primary: 1px solid var(--neutral-100);
+  --description-box-width: 325px;
 }
 
 * {
@@ -96,4 +97,14 @@ h2 {
   flex: 1;
   width: 50px;
   height: 50px;
+}
+
+.description-box {
+  font-family: GuardianTextEgyptian, Georgia, serif;
+  font-size: 20px;
+  width: var(--description-box-width);
+}
+
+.description-box + .description-box {
+  margin-left: 20px;
 }

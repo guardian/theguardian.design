@@ -27,13 +27,3 @@
 .brand__description {
   display: flex;
 }
-
-.brand__description > p {
-  font-family: GuardianTextEgyptian, Georgia, serif;
-  font-size: 20px;
-  width: 350px;
-}
-
-.brand__description > p:first-child {
-  margin-right: 20px;
-}

@@ -47,13 +47,3 @@
 .typography__description {
   display: flex;
 }
-
-.typography__description > p {
-  font-family: GuardianTextEgyptian, Georgia, serif;
-  font-size: 20px;
-  width: 350px;
-}
-
-.typography__description > p:first-child {
-  margin-right: 20px;
-}
