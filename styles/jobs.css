@@ -1,0 +1,51 @@
+.jobs {
+  /* TODO: display this when the menu button is clicked */
+  /* display: grid; */
+  display: none;
+  grid-template-areas:
+    "main ."
+    "description aside"
+    "footer .";
+  grid-template-columns: auto 25%;
+  grid-template-rows: auto;
+}
+
+.jobs-hero {
+  grid-area: main;
+  font-family: "GT Guardian Titlepiece", Georgia, serif;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 99px;
+  color: var(--brand-400);
+  background-color: var(--neutral-100);
+}
+
+.jobs-description {
+  grid-area: description;
+  font-family: "GT Guardian Titlepiece", Georgia, serif;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 39px;
+  color: var(--brand-400);
+  background-color: var(--neutral-100);
+  border-top: 1px solid #000000;
+}
+
+.jobs-footer {
+  grid-area: footer;
+  font-family: "GT Guardian Titlepiece", Georgia, serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 40px;
+  color: var(--brand-400);
+  background-color: var(--neutral-100);
+}
+
+.jobs-email {
+  color: #ff4e36;
+}
+
+.jobs-aside {
+  grid-area: aside;
+  border-top: var(--border-primary);
+}

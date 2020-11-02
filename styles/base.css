@@ -36,7 +36,6 @@ header {
 section {
   position: relative;
   height: 100vh;
-  margin-left: var(--space-left);
   padding-top: var(--header-height);
   padding-left: var(--section-padding-left);
   border-left: var(--border-primary);
@@ -48,6 +47,10 @@ section {
 
 section:first-of-type {
   border-left: 0;
+}
+
+aside {
+  padding: 0 36px;
 }
 
 a {
