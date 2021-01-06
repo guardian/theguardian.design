@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="styles/reset.css" />
     <link rel="stylesheet" href="styles/fonts.css" />
     <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/header.css"/>
     <link rel="stylesheet" href="styles/hero.css" />
     <link rel="stylesheet" href="styles/foundations.css" />
     <link rel="stylesheet" href="styles/design-principles.css" />
@@ -17,9 +18,6 @@
     <!-- BEGIN HEADER -->
     <header id="header">
       <div class="header-wrapper">
-        <a class="menu" href="#">
-          <img src="images/arrow-down.svg" />
-        </a>
         <div class="guardian-logo">
           <a class="guardian-logo__link" href="#top">
             <img src="images/guardian-logo.svg" />
@@ -206,7 +204,7 @@
       </div>
     </section>
 
-    <aside class="jobs">
+    <aside class="jobs" id="jobs" data-is-hidden=true>
       <ul class="jobs-hero">
         <li>Foundations</li>
         <li>Design system</li>
@@ -224,13 +222,17 @@
         >
       </p>
       <div class="jobs-footer">
-        The Guardian<br />
-        Design System
-        <button>Back</button>
+        <div>
+          The Guardian<br />
+          Design System
+        </div>
+        <button class="menu" href="#" id="jobs-aside-button">
+          <img src="images/arrow-down.svg" />
+        </button>
       </div>
-      <div class="jobs-aside">
+      <!-- <div class="jobs-aside">
         <img src="images/guardian-logo.svg" />
-      </div>
+      </div> -->
     </aside>
 
     <script src="scripts/index.js" async></script>

@@ -1,13 +1,49 @@
 .jobs {
   /* TODO: display this when the menu button is clicked */
   /* display: grid; */
-  display: none;
+  /* if ariaPressed: true, transform: translate(Xpx, ypx, zpx); */
+  /* if ariaPressed: false, transform: translate(-Xpx, -ypx, -zpx); */
+  /* initial position fixed outside of the viewport by x,y,z */
+  position: fixed;
+  top: 0;
   grid-template-areas:
     "main ."
     "description aside"
     "footer .";
   grid-template-columns: auto 25%;
   grid-template-rows: auto;
+  z-index: 1;
+}
+
+.menu {
+  background-color: var(--neutral-100);
+  width: var(--space-left);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+}
+
+.menu img {
+  width: 60px;
+  height: 60px;
+}
+
+.jobs[data-is-hidden="true"] {
+transform: translate(calc(-100% + var(--jobs-aside-button-size)), calc(-100% + var(--jobs-aside-button-size)));
+}
+
+.jobs[data-is-hidden="false"] {
+  transform: translate(0px, 0px);
+}
+
+.jobs[data-is-hidden="true"] #jobs-aside-button img {
+  transform: rotate(315deg);
+}
+
+.jobs[data-is-hidden="false"] #jobs-aside-button img {
+  transform: rotate(135deg);
 }
 
 .jobs-hero {
@@ -33,6 +69,8 @@
 
 .jobs-footer {
   grid-area: footer;
+  display: flex;
+  justify-content: space-between;
   font-family: "GT Guardian Titlepiece", Georgia, serif;
   font-weight: 700;
   font-size: 42px;
