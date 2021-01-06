@@ -1,0 +1,9 @@
+.header--border {
+    border-bottom: var(--border-primary);
+  }
+  
+  .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: calc(var(--constrained-section-width) + var(--space-left));
+  }
