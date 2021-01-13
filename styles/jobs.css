@@ -1,9 +1,4 @@
 .jobs {
-  /* TODO: display this when the menu button is clicked */
-  /* display: grid; */
-  /* if ariaPressed: true, transform: translate(Xpx, ypx, zpx); */
-  /* if ariaPressed: false, transform: translate(-Xpx, -ypx, -zpx); */
-  /* initial position fixed outside of the viewport by x,y,z */
   position: fixed;
   top: 0;
   grid-template-areas:

@@ -17,7 +17,6 @@ window.addEventListener('scroll', updateHeaderHeight)
 const jobsAsideButton = document.getElementById("jobs-aside-button")
 const jobsAside = document.getElementById("jobs")
 
-// TODO: the button isn't clicking. Is the header hiding it?
 const toggleJobsAsidePressedState = () => {
     const ariaPressed = jobsAsideButton.getAttribute('aria-pressed') === "true"
     if (!ariaPressed) {
