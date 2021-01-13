@@ -11,6 +11,7 @@
   --border-primary: 1px solid var(--neutral-100);
   --description-box-width: 325px;
   --transition-short: 0.2s ease-in-out;
+  --jobs-aside-button-size: 80px;
 }
 
 * {
@@ -49,10 +50,6 @@ section:first-of-type {
   border-left: 0;
 }
 
-aside {
-  padding: 0 36px;
-}
-
 a {
   color: var(--brand-alt-400);
 }
@@ -63,31 +60,6 @@ h2 {
   line-height: 58px;
   color: var(--brand-alt-400);
   margin: 16px 0;
-}
-
-.header--border {
-  border-bottom: var(--border-primary);
-}
-
-.header-wrapper {
-  display: flex;
-  justify-content: space-between;
-  width: calc(var(--constrained-section-width) + var(--space-left));
-}
-
-.menu {
-  background-color: var(--neutral-100);
-  width: var(--space-left);
-  height: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.menu img {
-  width: 60px;
-  height: 60px;
-  transform: rotate(315deg);
 }
 
 .guardian-logo img {

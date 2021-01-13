@@ -1,7 +1,5 @@
 const initialHeaderHeight = getComputedStyle(document.documentElement).getPropertyValue('--header-height')
 
-console.log(initialHeaderHeight)
-
 const updateHeaderHeight = () => {
     const header = document.getElementById('header')
 
@@ -15,3 +13,21 @@ const updateHeaderHeight = () => {
 }
 
 window.addEventListener('scroll', updateHeaderHeight)
+
+const jobsAsideButton = document.getElementById("jobs-aside-button")
+const jobsAside = document.getElementById("jobs")
+
+const toggleJobsAsidePressedState = () => {
+    const ariaPressed = jobsAsideButton.getAttribute('aria-pressed') === "true"
+    if (!ariaPressed) {
+        // expand
+        jobsAsideButton.setAttribute('aria-pressed', true)
+        jobsAside.setAttribute('data-is-hidden', false)
+    } else {
+        // collapse
+        jobsAsideButton.setAttribute('aria-pressed', false)
+        jobsAside.setAttribute('data-is-hidden', true)
+    }
+}
+
+jobsAsideButton.addEventListener('click', toggleJobsAsidePressedState)

@@ -10,3 +10,7 @@ cd theguardian.design
 npm i
 npm start
 ```
+
+## Designs
+//TODO: check access is okay
+Figma file for the designs can be found [here](https://www.figma.com/file/ZDCd4LhpTcHgZhlPsRwlCr/Source-Design-%2F-The-Guradian-Design?node-id=19%3A38), this requires access to The Guardian XXX
