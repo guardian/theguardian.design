@@ -8,6 +8,9 @@
   grid-template-columns: auto 25%;
   grid-template-rows: auto;
   z-index: 1;
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
 }
 
 .menu {
@@ -23,10 +26,15 @@
 .menu img {
   width: 60px;
   height: 60px;
+  transition-property: transform;
+  transition-duration: 0.5s;
 }
 
 .jobs[data-is-hidden="true"] {
-transform: translate(calc(-100% + var(--jobs-aside-button-size)), calc(-100% + var(--jobs-aside-button-size)));
+  transform: translate(
+    calc(-100% + var(--jobs-aside-button-size)),
+    calc(-100% + var(--jobs-aside-button-size))
+  );
 }
 
 .jobs[data-is-hidden="false"] {
@@ -34,7 +42,7 @@ transform: translate(calc(-100% + var(--jobs-aside-button-size)), calc(-100% + v
 }
 
 .jobs[data-is-hidden="true"] #jobs-aside-button img {
-  transform: rotate(315deg);
+  transform: rotate(-45deg);
 }
 
 .jobs[data-is-hidden="false"] #jobs-aside-button img {
