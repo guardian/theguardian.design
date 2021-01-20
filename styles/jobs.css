@@ -42,7 +42,7 @@
 }
 
 .jobs[data-is-hidden="true"] #jobs-aside-button img {
-  transform: rotate(315deg);
+  transform: rotate(-45deg);
 }
 
 .jobs[data-is-hidden="false"] #jobs-aside-button img {
