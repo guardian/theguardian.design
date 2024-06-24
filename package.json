@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/guardian/theguardian.design#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.13"
+    "browser-sync": "^2.29.3"
   }
 }
